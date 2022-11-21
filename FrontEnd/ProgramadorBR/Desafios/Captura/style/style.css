@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+:root{
+  --color0:#3bb9ce;
+  --color1:#1e2020;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+  
+  margin: auto;
+}
+
+.header{
+  background-color: var(--color0);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.image{
+  background-image: url("../media/people.jpg");
+  background-size: cover;
+  padding: 20px;
+  overflow: hidden;
+  float: left;
+}
+.capture{
+  background-color: rgba(255, 255, 255, 0.651);
+  max-width: 230px;
+  padding: 20px;
+  float: right;
+  
+}
+.captureTitle{
+  font-size: 12px;
+
+}
+.captureDescription{
+  padding: 20px;
+
+}
+.captureForm{
+  text-align: center;
+}
+.formInput{
+  padding: 10px;
+  width: 260px;
+  margin: 0 0 8px 0;
+  border: none;
+}
+.formSubmit{
+  background-color: var(--color0);
+  color: white;
+  font-weight: bold;
+}
+.formSelect{
+  appearance: none;
+  background-image: url("../media/arrow.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-position-x: 97%;
+  
+}
+.speaker{
+  background-color: var(--color1);
+  
+}
+.speakerContainer{
+ text-align: center;
+ padding: 60px 0;
+}
+.speakerImage{
+  display: inline-block;
+}
+.spk-img{
+  display: inline-block;
+  width: 160px;
+
+}
+
+.speakerText{
+  display: inline-block;
+  text-align: left;
+  padding:  0 0 0 20px;
+  color: white;
+  
+}
+.st-text{
+  padding: 10px;
+}
+
+
+
+
+/*Mobile*/
+@media screen and (max-width:667px) {
+  .header{
+    font-size: 0.6em;
+  }
+  .image{
+    width: 100%;
+   
+  }
+  .capture{
+  left: 25%;
+
+  }
+  
+
+}
