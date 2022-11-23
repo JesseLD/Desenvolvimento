@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../Captura/media/ico.png" type="image/x-icon">
   <link rel="stylesheet" href="style/style.css">
   <title>WorkShop</title>
 </head>
@@ -11,18 +12,18 @@
   <div class="container">
     
     <header class="header">
-      <h1 class="headerTitle">
+      <h1 class="header-title">
         PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGOCIO
       </h1>
     </header>
   
     <section class="image">
       <div class="capture">
-          <h1 class="captureTitle">
+          <h2 class="capture-title mb">
             GARANTA O SEU LUGAR NO WORKSHOP NO
             MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE
-          </h1>
-          <p class="captureDescription">
+          </h2>
+          <p class="capture-description mb">
             Neste evento, você vai
             aprender todos os segredos
             que vão te fazer ser um
@@ -30,20 +31,40 @@
             precisar contar com a sorte.
           </p>
   
-          <form action="getURl.com" method="post" class="captureForm">
-            <input class="formInput" type="text" name="name" id="name" placeholder="Nome">
-            <input class="formInput" type="email" name="email" id="email" placeholder="Email">
+          <form action="getURl.com" method="post" class="capture-form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Nome">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Email" required>
   
-            <select class="formInput formSelect" name="states" id="states">
+            <select class="form-input form-select" name="states" id="states">
+              <option value="none" selected hidden>Cidade</option>
                 <option value="SP">São Paulo</option>
                 <option value="ES">Espirito Santo</option>
-                <option value="RJ" selected>Rio De Janeiro</option>
+                <option value="RJ">Rio De Janeiro</option>
                 <option value="MG">Minas Gerais</option>
               </select>
-            <input class="formInput formSubmit" type="submit" value="INSCREVA-SE">
+            <input class="form-input form-submit" type="submit" value="INSCREVA-SE">
           </form>
         </div>
     </section>
+    <div class="speaker"> 
+      <div class="speaker-container">
+        <div class="speaker-image">
+          <img class="spk-img" src="media/face.jpg" alt="Imagem Do Palestrante">
+        </div>
+        <div class="speaker-text">
+          <h2 class="ftr-adj">
+            O Palestrante
+          </h2>
+          <p class="ftr-adj">
+            Carlos Fontana é conhecido por dar palestras que abalam a estrutura do marketing tradicional. Prepara-se para sair do evento com uma nova visão do que é possivel ser feito para o seu negócio decolar.
+          </p>
+          <p class="ftr-adj">
+            Formando em Marketing pela Universidade XYZ e fundador da MarkUp, a empresa vencedora dos ultimos 5 Prêmios MarketingBr.
+          </p>
+        </div>
+      </div>
+
+    </div>
   
   
   </div>
