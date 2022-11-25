@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.card{
+  background-color: #777;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 20px;
+  text-transform: uppercase;
+  
+}
+
