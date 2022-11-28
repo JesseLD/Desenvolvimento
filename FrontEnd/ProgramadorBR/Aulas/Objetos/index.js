@@ -108,3 +108,7 @@ var armas=[
 armas.forEach(function(i){
   console.log(i);
 })
+
+
+let hora = new Date();
+console.log(hora);
