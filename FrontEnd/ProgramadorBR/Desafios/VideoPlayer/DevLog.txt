@@ -1,0 +1,4 @@
+--- BUGS
+
+Ajustar Bug no css, na classe "second-container", que não está aceitando
+o height variável de 100%
