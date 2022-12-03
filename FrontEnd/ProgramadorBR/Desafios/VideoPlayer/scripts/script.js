@@ -1,4 +1,6 @@
 let play = document.querySelector("span.play");
+let rewind = document.querySelector("span.rewind");
+let forward = document.querySelector("span.forward");
 let pause = document.querySelector("span.pause");
 let video = document.querySelector("video.video");
 let cts = document.querySelector("div.buttons");
@@ -6,34 +8,38 @@ var second_container = document.querySelector("div.second-container");
 let btn = document.querySelectorAll("span.btn")[0];
 let span = document.getElementsByTagName("span");
 
-arr=["1","2","3"]
 
+
+// play.addEventListener("click",pause);
 
 
 play.addEventListener("click",start);
-play.addEventListener("click",pause);
+
+forward.addEventListener("click",advance);
+rewind.addEventListener("click",f_rewind);
 
 
-video.addEventListener("mousemover",ct);
+function advance(){
+ video.currentTime += 5;
+}
+function f_rewind(){
+  video.currentTime -= 5;
+ }
+
+
 
 function start(){
   video.play();
-  this.style.opacity= "0"
-
-}
-
-function pause(){
-  video.pause();
-}
-
-function ct(){
-  cts.style.display="inline";
-}
-function m_hover(){
-  second_container.style.backgroundColor="yellow";
+  this.innerText="pause";
   
+  setTimeout((event) => {
+    event = play.innerText="play_arrow";
+    event = console.log("isRunning");
+  }, 2000);
+   
 }
-  
+
+
   
 
 

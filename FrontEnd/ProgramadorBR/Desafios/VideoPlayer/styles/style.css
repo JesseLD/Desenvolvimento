@@ -4,6 +4,7 @@
 }
 
 .container{
+  position: relative;
   width: 640px;
   height: 380px;
 }
@@ -11,9 +12,11 @@
   width: 100%;
 }
 .controls{
+  position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
-  background-color: red;
+  background-color: transparent;
   text-align: center;
 }
 .second-container{
@@ -22,10 +25,10 @@
   
 
 }
-.second-container:hover{
+/* .second-container:hover{
   background-color: blue;
   
-}
+} */
 .btn{
   padding: 10px;
   margin: 10px 30px;
