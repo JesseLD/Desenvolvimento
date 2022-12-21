@@ -120,32 +120,34 @@
 
 // exec();
 
-function criarPessoa(nome,idade){
-  return {nome, idade}
-}
+//map
 
-let pessoas = [
-  criarPessoa("José",25),
-  criarPessoa("Marcos",30),
-  criarPessoa("Pedro",29),
-  criarPessoa("Maria",32)
+// function criarPessoa(nome,idade){
+//   return {nome, idade}
+// }
 
-]
+// let pessoas = [
+//   criarPessoa("José",25),
+//   criarPessoa("Marcos",30),
+//   criarPessoa("Pedro",29),
+//   criarPessoa("Maria",32)
 
-function map(funct,v2){  
-  let temp=[]
-  for(v2 of v2){
-    // console.log(funct(v2))
-    temp.push(funct(v2))
-  }
-  console.log(temp)
-}
+// ]
 
-function nomeEIdade(pessoas){
+// function map(funct,v2){  
+//   let temp=[]
+//   for(v2 of v2){
+//     // console.log(funct(v2))
+//     temp.push(funct(v2))
+//   }
+//   console.log(temp)
+// }
+
+// function nomeEIdade(pessoas){
     
-    return `${pessoas.nome} tem ${pessoas.idade} anos`
+//     return `${pessoas.nome} tem ${pessoas.idade} anos`
     
-}
+// }
 
-map(nomeEIdade,pessoas);
-console.log(map.temp);
+// map(nomeEIdade,pessoas);
+// console.log(map.temp);

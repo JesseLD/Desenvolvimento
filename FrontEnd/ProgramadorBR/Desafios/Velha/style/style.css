@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1{
+  padding: 40px;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: solid 1px gray;
+  display: inline-block;
+  
+}
+.container{
+
+}
+.o{
+  position: relative;
+}
+.x{
+  position: relative;
+}
+.o::after{
+  content: "\1F921";
+  font-size: 50px;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.x::after{
+  content: "\1F987";
+  font-size: 50px;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
